@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { SharedModule } from './shared/shared.module';
 import { AppRouterModule } from './app-router.module';
+import { VentasModule } from './ventas/ventas.module';
 
 @NgModule({
   declarations: [
@@ -11,7 +12,8 @@ import { AppRouterModule } from './app-router.module';
   imports: [
     BrowserModule,
     SharedModule,
-    AppRouterModule
+    AppRouterModule,
+    VentasModule
   ],
   providers: [],
   bootstrap: [AppComponent]
